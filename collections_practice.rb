@@ -28,9 +28,9 @@ def kesha_maker(array)
   
 end
 
-# def find_a
+def find_a
   
-# end
+end
 
 def sum_array(array)
   array.inject(0){|sum,x| sum + x }
