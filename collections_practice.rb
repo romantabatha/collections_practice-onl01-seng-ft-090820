@@ -20,8 +20,8 @@ def swap_elements(array)
   
 end
 
-def reverse_array
-  
+def reverse_array(array)
+  array.reverse
 end
 
 def kesha_maker
@@ -32,7 +32,7 @@ def find_a
   
 end
 
-def sum_array
+def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
