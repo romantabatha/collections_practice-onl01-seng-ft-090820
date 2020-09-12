@@ -29,14 +29,16 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  array.select do |word|
+    array.start_with?(a)
+  end
 end
 
 def sum_array(array)
   array.inject(0){|sum,x| sum + x }
 end
 
-def add_s
+def add_s(array)
   
 end
 
