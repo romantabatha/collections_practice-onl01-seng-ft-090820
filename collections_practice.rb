@@ -21,10 +21,12 @@ def reverse_array(array)
 end
 
 def sum_array(array)
-  array.inject(0){|sum,x| sum + x }
+  array.inject(0) do |sum,x| sum + x 
+  end
 end
 
 def kesha_maker(array)
+  
 end
 
 def find_a(array)
@@ -34,6 +36,9 @@ def find_a(array)
 end
 
 def add_s(array)
+  array.each_with_index.collect do |element, index|
+    array + "s"
+  end
 end
 
 def swap_elements(array)
